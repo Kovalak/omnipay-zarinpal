@@ -69,7 +69,7 @@ The final result includes the following methods to inspect additional details:
 $response = $gateway->completePurchase([
     'amount' => 100,
     'authority' => $_REQUEST['Authority'], 
-)->send();
+])->send();
 
 // Process response
 if ($response->isSuccessful()) {
